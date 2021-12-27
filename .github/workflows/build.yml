@@ -1,0 +1,10 @@
+# # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+
+# on: [push, pull_request, workflow_dispatch]
+
+# name: Build
+# jobs:
+#   ergogen_generate:
+#       runs-on: ubuntu-latest
+#       name: Generate
