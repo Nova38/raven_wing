@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "gen": "ergogen V1\\ergogen\\raven_wing.yaml -o V1\\ergogen\\output"
+        "gen": "ergogen V1/ergogen/raven_wing.yaml -o V1/ergogen/output"
     },
     "dependencies": {
         "ergogen": "github:mrzealot/ergogen#master"
