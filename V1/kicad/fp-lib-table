@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "MicroMod-Datalogging-CarrierBoard")(type "KiCad")(uri "$(KIPRJMOD)/Raven_Keyboard.pretty")(options "")(descr ""))
+)

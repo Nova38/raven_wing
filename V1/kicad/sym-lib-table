@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "MicroMod-Datalogging-CarrierBoard-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/MicroMod-Datalogging-CarrierBoard-eagle-import.kicad_sym")(options "")(descr ""))
+)
