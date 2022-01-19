@@ -1,0 +1,2214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\devcs\projects\keyboard\raven_wing\V1\kicad\Raven_Keyboard.kicad_sch</source>
+    <date>1/4/2022 11:14:08 PM</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Raven Keyboard</title>
+        <company/>
+        <rev>1</rev>
+        <date/>
+        <source>Raven_Keyboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/">
+      <title_block>
+        <title>Raven Keyboard</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>KeyMatrix.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="3V3_LED1">
+      <value>JUMPER-SMT_2_NC_TRACE_SILK</value>
+      <footprint>SMT-JUMPER_2_NC_TRACE_SILK</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JUMPER-SMT_2_NC_TRACE_SILK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e41cd366-ac0b-4f59-b510-02832bc4ee64</tstamps>
+    </comp>
+    <comp ref="BYP1">
+      <value>JUMPER-SMT_2_NO_SILK</value>
+      <footprint>SMT-JUMPER_2_NO_SILK</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JUMPER-SMT_2_NO_SILK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69667217-7bdb-4c73-9ac0-5262bf0e3a69</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="0.1UF-0603-25V-(+80{slash}-20%)" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74093fa1-3e81-4e62-ad62-a389e01b4b96</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>EIA3216</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="10UF-POLAR-EIA3216-16V-10%(TANT)" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fddf290b-9862-45ca-b663-672c3148a1cd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="4.7UF-0603-35V-(20%)" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdba0fbc-d9a7-49f0-9e09-622d7646b085</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="4.7UF-0603-6.3V-(10%)" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab9d821f-98de-4bd9-8007-7b4b6e281414</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1.0uF</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="1.0UF-0603-16V-10%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e78bb44-6dad-4112-8889-d3094650af50</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="0.1UF-0603-25V-(+80{slash}-20%)" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57915765-9068-4171-9451-5dd70e92a17b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.22uF</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="0.22UF-0603-25V-10%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>108fc71a-36c0-4c80-8629-3b8543e9ac63</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1.0uF</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="1.0UF-0603-16V-10%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>508bf7f8-74c9-4978-86f4-df5aded53556</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.22uF</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="0.22UF-0603-25V-10%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3b41173-0536-45fc-9e5d-8e798e88f647</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>3.3V</value>
+      <footprint>SOD-323</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="DIODE-ZENER-MM3Z3V3T1G" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>119a7a82-e2ec-415b-91cc-9a0a873f9bd6</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Yellow</value>
+      <footprint>LED-0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="LED-YELLOW0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e6ed99f-bcce-4ccb-a172-f55b368486f9</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>3A/10V/280mV</value>
+      <footprint>SOD-323</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="DIODE-SCHOTTKY-BAT60A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88a9de6a-7835-4f5f-b203-bae9164f68a5</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>RED</value>
+      <footprint>LED-0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="LED-RED0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45140129-74d0-410a-a8f8-277d04c8c5fc</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>Yellow</value>
+      <footprint>LED-0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="LED-YELLOW0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e557eebc-0c78-481c-b632-ec5807ff6fa1</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>6V/2A</value>
+      <footprint>1210</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="PPTC_6V2A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd0d9950-a490-4cd5-9613-f2156225894a</tstamps>
+    </comp>
+    <comp ref="FD1">
+      <value>FIDUCIALUFIDUCIAL</value>
+      <footprint>FIDUCIAL-MICRO</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="FIDUCIALUFIDUCIAL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>975549c3-a0dd-439f-b4ab-49f9aed79f81</tstamps>
+    </comp>
+    <comp ref="FD2">
+      <value>FIDUCIALUFIDUCIAL</value>
+      <footprint>FIDUCIAL-MICRO</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="FIDUCIALUFIDUCIAL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97aadb15-ffc8-419e-91a3-9827b010442d</tstamps>
+    </comp>
+    <comp ref="FD3">
+      <value>FIDUCIALUFIDUCIAL</value>
+      <footprint>FIDUCIAL-MICRO</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="FIDUCIALUFIDUCIAL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a31fc37-8908-41af-be46-b67258512f21</tstamps>
+    </comp>
+    <comp ref="FD4">
+      <value>FIDUCIALUFIDUCIAL</value>
+      <footprint>FIDUCIAL-MICRO</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="FIDUCIALUFIDUCIAL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0b80320-b41f-496e-a0c8-bead93e42a10</tstamps>
+    </comp>
+    <comp ref="FRAME1">
+      <value>FRAME-LEDGER</value>
+      <footprint>CREATIVE_COMMONS</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="FRAME-LEDGER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2337b3ea-47f9-4a44-8080-62a80c05a4b8</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>STAND-OFF</value>
+      <footprint>STAND-OFF</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b300ba01-631e-469b-9ca1-b2c890f8400d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>STAND-OFF</value>
+      <footprint>STAND-OFF</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8a78873-7379-4294-9576-9d4b8eb6a057</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>STAND-OFF</value>
+      <footprint>STAND-OFF</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>795199d2-fc40-4c65-b4b3-9fb9addcfe30</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>STAND-OFF</value>
+      <footprint>STAND-OFF</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="STAND-OFF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b0357b0-8ef6-4759-9eba-a2e6e3deeb3f</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>M2-Stand-Off</value>
+      <footprint>STAND-OFF-REFLOW-M2.5</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="STAND-OFF-REFLOW2.5MM_TALL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>538b0156-3a6a-444c-9f8f-32b4a77be10e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_2-LAYER_PADS</value>
+      <footprint>USB-C-16P-2LAYER-PADS</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="USB_C_2-LAYER_PADS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68af74fc-859c-4afd-9d48-090385e59065</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JTAG</value>
+      <footprint>2X5-PTH-1.27MM</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="CORTEX_JTAG_DEBUG_MINIMUM_PTH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd33fff3-a790-4f58-8f66-c7d0ccfed4b5</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>JST_2MM_MALE</value>
+      <footprint>JST-2-SMD</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JST_2MM_MALE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96d0a0a8-3324-4474-9ad7-b368358f9ff7</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>CONN_021X02</value>
+      <footprint>1X02_NO_SILK</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="CONN_021X02_NO_SILK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70f3bc6d-a86a-4980-a450-8075920f36ca</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>CONN_01</value>
+      <footprint>1X01_NO_SILK</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="CONN_01PTH_NO_SILK_YES_STOP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96e2578f-50d5-4674-bba8-e7ab6757bb03</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>SPI</value>
+      <footprint>1X06_NO_SILK</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="CONN_06NO_SILK_NO_POP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72f33f67-c4bd-450e-bd37-145400d4c33d</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>CONN_1</value>
+      <footprint>1X01_NO_SILK</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="CONN_01PTH_NO_SILK_YES_STOP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a595ebf-addf-460e-9e66-0f5a1bfde66a</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>I2C</value>
+      <footprint>1X04_NO_SILK</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="I2C_STANDARD_NO_SILK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a010cd21-0c47-4838-97cf-f6952c9f247c</tstamps>
+    </comp>
+    <comp ref="LOGO3">
+      <value>OSHW-LOGOMINI</value>
+      <footprint>OSHW-LOGO-MINI</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="OSHW-LOGOMINI" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd3ec8aa-14b1-482b-8c28-8e6e9034b78c</tstamps>
+    </comp>
+    <comp ref="MEAS1">
+      <value>JUMPER</value>
+      <footprint>COMBO-JUMPER_2_NC_TRACE</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JUMPER-COMBO_2_NC_TRACE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc6c8c95-3cdf-4110-be0a-a925ee00f19b</tstamps>
+    </comp>
+    <comp ref="MEAS_BATT1">
+      <value>JMP</value>
+      <footprint>COMBO-JUMPER_2_NC_TRACE</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JUMPER-COMBO_2_NC_TRACE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9397719b-4a3b-4984-a470-967198532930</tstamps>
+    </comp>
+    <comp ref="MicroMod_Connector1">
+      <value>MicoMod-Connector</value>
+      <footprint>M.2-CONNECTOR-E</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="MICROMOD-2222-C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7d6504b-5fe0-43e0-8fde-c604f620b4c4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="5.1KOHM5.1KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8177aaf6-bf5e-4af2-bb81-f43479ff5768</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="5.1KOHM5.1KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4873e161-c585-4ca2-b5d2-ebac10af84c2</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="100KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a308051-e406-414a-a28b-2b5533e6f663</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2.2k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="2.2KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d2ee942-1f14-45eb-b8eb-1c3a8f5687af</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>504626df-f1a6-43c0-bbdd-dc747f2c1a46</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="10KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9249121-44f5-4335-af74-2f8b6acbc83c</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>20k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="20KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9d46a0f-6593-4bf9-98e3-c4cb88025da9</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="1KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a37230b-b711-465e-80b6-76037ac9a17f</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="4.7KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9167a01-f8fb-4ab0-9de8-d3512a2792ad</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>0603</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="100KOHM-0603-1{slash}10W-1%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>307455e7-7eea-4229-ad45-c70021af7c4f</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>Reset</value>
+      <footprint>TACTILE_SWITCH_SMD_5.2MM</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baac77a5-6404-4798-b88c-c291bdfb1f2d</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>BOOT</value>
+      <footprint>TACTILE_SWITCH_SMD_5.2MM</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e35b86d-d7db-4d85-8e66-c31099cf08c2</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP73831</value>
+      <footprint>SOT23-5</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="MCP73831" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8a654f4-18ae-42ea-820a-2a434ca295a6</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>3.3V</value>
+      <footprint>SOT23-5</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="V_REG_AP2112K-3.3V" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>892761a1-b562-49e7-a13c-bc73a4f345d0</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AP7361C-33E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP7361C.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP7361C-33E" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a3dd267-6aea-4f82-89d3-1759178915d9</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>AP7361C-33</value>
+      <footprint>UDFN-8</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="AP7361C-33FGEUDFN-8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec3e7e7e-d8c7-4d80-9864-6536c8163186</tstamps>
+    </comp>
+    <comp ref="VE1">
+      <value>JMP_2</value>
+      <footprint>SMT-JUMPER_2_NO_SILK</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JUMPER-SMT_2_NO_SILK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4902387e-4ba8-4435-895a-c122e90a915b</tstamps>
+    </comp>
+    <comp ref="VIN_LED1">
+      <value>JUMPER-SMT_2_NC_TRACE_SILK</value>
+      <footprint>SMT-JUMPER_2_NC_TRACE_SILK</footprint>
+      <libsource lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JUMPER-SMT_2_NC_TRACE_SILK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Raven_Keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10820db9-f397-4554-adc7-510b5d6cc99f</tstamps>
+    </comp>
+    <comp ref="D_C1-R1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>6b039b49-6359-47b5-bbb0-2659dfee8a99</tstamps>
+    </comp>
+    <comp ref="D_C1-R2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>cd428b52-7984-4167-a12a-edd825ef1d2a</tstamps>
+    </comp>
+    <comp ref="D_C1-R3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>6f002346-f138-47c3-a991-0599cfe752e2</tstamps>
+    </comp>
+    <comp ref="D_C1-R4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>004d515e-c1a6-423a-a1f2-76c235f1fadf</tstamps>
+    </comp>
+    <comp ref="D_C1-R5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>45fe177b-6074-40a2-a10e-0f1acb6b9516</tstamps>
+    </comp>
+    <comp ref="D_C2-R1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>9906c5db-2eb1-43e2-b120-d0244e6c59e3</tstamps>
+    </comp>
+    <comp ref="D_C2-R2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>18dcff93-c027-4cdf-9902-1cedb2a2ab24</tstamps>
+    </comp>
+    <comp ref="D_C2-R3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>e8038d15-b3b5-49f6-b103-68b89cda8e3f</tstamps>
+    </comp>
+    <comp ref="D_C2-R4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>0519fcb4-911c-40b3-a69a-b08158ec20ce</tstamps>
+    </comp>
+    <comp ref="D_C2-R5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>38920ce3-545c-4964-b40b-a33796e78a87</tstamps>
+    </comp>
+    <comp ref="D_C3-R1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>a021f28d-9c5a-4ad9-8af9-4b535c1e5a5d</tstamps>
+    </comp>
+    <comp ref="D_C3-R2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>a099cb51-8cd1-4500-8866-542399149fbc</tstamps>
+    </comp>
+    <comp ref="D_C3-R3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>0c5a962f-6269-4c9f-a4a0-81853fe600bd</tstamps>
+    </comp>
+    <comp ref="D_C3-R4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>2181e74c-d08a-4293-9097-c6a86356c94a</tstamps>
+    </comp>
+    <comp ref="D_C3-R5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>7e33a350-a051-466b-a872-6e6224f6fd47</tstamps>
+    </comp>
+    <comp ref="D_C4-R1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>be86fe47-6571-469a-9770-8bf06a66915a</tstamps>
+    </comp>
+    <comp ref="D_C4-R2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>88568195-3f95-4c76-a902-52f2d2a9c24d</tstamps>
+    </comp>
+    <comp ref="D_C4-R3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>297b350c-71a5-4c53-a9b9-f95a3a63ada7</tstamps>
+    </comp>
+    <comp ref="D_C4-R4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>a4485a9c-6c55-4bc6-8b47-68a7a89ffc90</tstamps>
+    </comp>
+    <comp ref="D_C4-R5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>f3d2de48-ae8a-4aef-a375-6bdf7154308a</tstamps>
+    </comp>
+    <comp ref="D_C5-R1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>4d9c10db-c438-4550-adc7-00956fafafd8</tstamps>
+    </comp>
+    <comp ref="D_C5-R2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>7d003d63-e14b-4634-82f1-0570f6461518</tstamps>
+    </comp>
+    <comp ref="D_C5-R3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>384ec3a6-dd83-41e5-8885-0341ce4eeabd</tstamps>
+    </comp>
+    <comp ref="D_C5-R4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>ad078e18-54c5-4b77-8472-c0b8c3df0199</tstamps>
+    </comp>
+    <comp ref="D_C5-R5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>6dafc63a-2f65-4f95-839e-877306a1b94d</tstamps>
+    </comp>
+    <comp ref="D_C6-R1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>e92ad57b-9b83-4b29-8cf6-352d52fc168b</tstamps>
+    </comp>
+    <comp ref="D_C6-R2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>99c7bc4f-1be2-443e-bfe2-a08b0c669ba1</tstamps>
+    </comp>
+    <comp ref="D_C6-R3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>d35f839c-c98a-4391-8c59-0e76a3cdd552</tstamps>
+    </comp>
+    <comp ref="D_C6-R4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>4c46bf08-0751-442a-94ca-9dcaa0e94cdc</tstamps>
+    </comp>
+    <comp ref="D_C6-R5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>b121c797-b06d-45f3-a8c5-03300ce06ae9</tstamps>
+    </comp>
+    <comp ref="SW_C1-R1">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>e0bef1f0-64ad-4e9c-9a9d-489afb251675</tstamps>
+    </comp>
+    <comp ref="SW_C1-R2">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>b0e92e8c-524c-4a53-a598-3185d635c84b</tstamps>
+    </comp>
+    <comp ref="SW_C1-R3">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>4aaab944-ba1a-45c6-a367-4cf2f931f5b9</tstamps>
+    </comp>
+    <comp ref="SW_C1-R4">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>54652886-e491-4bd6-92fd-c90cc38efa69</tstamps>
+    </comp>
+    <comp ref="SW_C1-R5">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>0f8abe92-dcfe-4d8e-916f-bc536cbc1939</tstamps>
+    </comp>
+    <comp ref="SW_C2-R1">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>a1bff705-9d2f-4ffb-81b4-fda5c8b62d88</tstamps>
+    </comp>
+    <comp ref="SW_C2-R2">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>93446c91-1c90-45a2-8501-0bfca7cf83bc</tstamps>
+    </comp>
+    <comp ref="SW_C2-R3">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>0250edcc-8d3a-474c-b567-ee57428649a7</tstamps>
+    </comp>
+    <comp ref="SW_C2-R4">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>0f68cd29-c83b-4682-bb0d-bd298d3e2e75</tstamps>
+    </comp>
+    <comp ref="SW_C2-R5">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>1f0980be-2ba3-49f2-a927-e4e891c98588</tstamps>
+    </comp>
+    <comp ref="SW_C3-R1">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>56ec8ab5-82b1-41f2-93a1-a4040b1b90a4</tstamps>
+    </comp>
+    <comp ref="SW_C3-R2">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>2e43013a-6db2-403a-b2cf-696fbbad8fe3</tstamps>
+    </comp>
+    <comp ref="SW_C3-R3">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>f7e53410-1df5-4a38-9763-d033c232cf21</tstamps>
+    </comp>
+    <comp ref="SW_C3-R4">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>d3abac55-8d40-4548-add9-483ac940b077</tstamps>
+    </comp>
+    <comp ref="SW_C3-R5">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>0359cbe9-75fb-48a7-a227-00cbd2bd0cbf</tstamps>
+    </comp>
+    <comp ref="SW_C4-R1">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>25edc569-7a2c-4b57-bd69-1d8b8c766181</tstamps>
+    </comp>
+    <comp ref="SW_C4-R2">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>c304afe8-ce94-4e47-9f56-7c3750326f0d</tstamps>
+    </comp>
+    <comp ref="SW_C4-R3">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>0f9a3572-c105-42ac-846d-ca4f53b9df8b</tstamps>
+    </comp>
+    <comp ref="SW_C4-R4">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>0870847e-a8ef-4005-8014-b51a8f93e4a8</tstamps>
+    </comp>
+    <comp ref="SW_C4-R5">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>fdccbc46-2eaa-41b6-93de-1a4bfa793589</tstamps>
+    </comp>
+    <comp ref="SW_C5-R1">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>2b1a3fe6-bedf-4eac-8d3b-44a2733070b9</tstamps>
+    </comp>
+    <comp ref="SW_C5-R2">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>4d48d9c0-8486-4e77-92fb-0fa0363d29f8</tstamps>
+    </comp>
+    <comp ref="SW_C5-R3">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>2cd1449f-196e-4081-afe0-faf4ce190def</tstamps>
+    </comp>
+    <comp ref="SW_C5-R4">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>2e51babe-7730-4361-b12e-fbdfdf17ce39</tstamps>
+    </comp>
+    <comp ref="SW_C5-R5">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>cfdf0796-999c-470e-bc6c-74933575b053</tstamps>
+    </comp>
+    <comp ref="SW_C6-R1">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>e94af4b9-fcc2-4624-8dbb-ea6d99d6db2a</tstamps>
+    </comp>
+    <comp ref="SW_C6-R2">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>ff3d1a7b-0ee3-4b1e-b767-8a42a947e745</tstamps>
+    </comp>
+    <comp ref="SW_C6-R3">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>9954583e-622e-42f6-a286-39bb73918036</tstamps>
+    </comp>
+    <comp ref="SW_C6-R4">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>1a20a6cf-c2a4-4f7a-b63c-797a1137aef6</tstamps>
+    </comp>
+    <comp ref="SW_C6-R5">
+      <value> </value>
+      <footprint>Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="KeyMatrix"/>
+      <property name="Sheetfile" value="KeyMatrix.kicad_sch"/>
+      <sheetpath names="/KeyMatrix/" tstamps="/325f4eab-fa54-4d39-bcd8-be74c5f7959c/"/>
+      <tstamps>e60e3e39-41d7-49ee-932a-2da150ca63ed</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Diode" part="1N4148W">
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <docs>https://www.vishay.com/docs/85748/1n4148w.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="0.1UF-0603-25V-(+80{slash}-20%)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1UF-0603-25V-(+80{slash}-20%)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="0.22UF-0603-25V-10%">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.22UF-0603-25V-10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="1.0UF-0603-16V-10%">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1.0UF-0603-16V-10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="100KOHM-0603-1{slash}10W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100KOHM-0603-1{slash}10W-1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="10KOHM-0603-1{slash}10W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KOHM-0603-1{slash}10W-1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="10UF-POLAR-EIA3216-16V-10%(TANT)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10UF-POLAR-EIA3216-16V-10%(TANT)</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="1KOHM-0603-1{slash}10W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1KOHM-0603-1{slash}10W-1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="2.2KOHM-0603-1{slash}10W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2.2KOHM-0603-1{slash}10W-1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="20KOHM-0603-1{slash}10W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">20KOHM-0603-1{slash}10W-1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="4.7KOHM-0603-1{slash}10W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7KOHM-0603-1{slash}10W-1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="4.7UF-0603-35V-(20%)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7UF-0603-35V-(20%)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="4.7UF-0603-6.3V-(10%)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7UF-0603-6.3V-(10%)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="5.1KOHM5.1KOHM-0603-1{slash}10W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">5.1KOHM5.1KOHM-0603-1{slash}10W-1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="AP7361C-33FGEUDFN-8">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP7361C-33FGEUDFN-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="EN" type="bidirectional"/>
+        <pin num="8" name="IN" type="input"/>
+        <pin num="EP" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="CONN_01PTH_NO_SILK_YES_STOP">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01PTH_NO_SILK_YES_STOP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="CONN_021X02_NO_SILK">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_021X02_NO_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="CONN_06NO_SILK_NO_POP">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_06NO_SILK_NO_POP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="CORTEX_JTAG_DEBUG_MINIMUM_PTH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CORTEX_JTAG_DEBUG_MINIMUM_PTH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="bidirectional"/>
+        <pin num="2" name="SWDIO" type="bidirectional"/>
+        <pin num="3" name="GND" type="bidirectional"/>
+        <pin num="4" name="SWDCLK" type="bidirectional"/>
+        <pin num="5" name="GND" type="bidirectional"/>
+        <pin num="6" name="SWO" type="bidirectional"/>
+        <pin num="9" name="GND" type="bidirectional"/>
+        <pin num="10" name="~{RESET}" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="DIODE-SCHOTTKY-BAT60A">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-SCHOTTKY-BAT60A</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="DIODE-ZENER-MM3Z3V3T1G">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-ZENER-MM3Z3V3T1G</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="FIDUCIALUFIDUCIAL">
+      <fields>
+        <field name="Reference">FD</field>
+        <field name="Value">FIDUCIALUFIDUCIAL</field>
+      </fields>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="FRAME-LEDGER">
+      <fields>
+        <field name="Reference">FRAME</field>
+        <field name="Value">FRAME-LEDGER</field>
+      </fields>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="I2C_STANDARD_NO_SILK">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">I2C_STANDARD_NO_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JST_2MM_MALE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JST_2MM_MALE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="bidirectional"/>
+        <pin num="2" name="+" type="bidirectional"/>
+        <pin num="NC1" name="PAD1" type="bidirectional"/>
+        <pin num="NC2" name="PAD2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JUMPER-COMBO_2_NC_TRACE">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER-COMBO_2_NC_TRACE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JUMPER-SMT_2_NC_TRACE_SILK">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER-SMT_2_NC_TRACE_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="JUMPER-SMT_2_NO_SILK">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER-SMT_2_NO_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="LED-RED0603">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RED0603</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="LED-YELLOW0603">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-YELLOW0603</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="MCP73831">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="MICROMOD-2222-C">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MICROMOD-2222-C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="bidirectional"/>
+        <pin num="2" name="3.3V" type="bidirectional"/>
+        <pin num="3" name="USB_D+" type="bidirectional"/>
+        <pin num="4" name="3.3V_EN" type="bidirectional"/>
+        <pin num="5" name="USB_D-" type="bidirectional"/>
+        <pin num="6" name="~{RESET}" type="bidirectional"/>
+        <pin num="7" name="GND" type="bidirectional"/>
+        <pin num="8" name="G11" type="bidirectional"/>
+        <pin num="9" name="USB_VIN" type="bidirectional"/>
+        <pin num="10" name="D0" type="bidirectional"/>
+        <pin num="11" name="~{BOOT}" type="bidirectional"/>
+        <pin num="12" name="I2C_SDA" type="bidirectional"/>
+        <pin num="13" name="RTS1" type="bidirectional"/>
+        <pin num="14" name="I2C_SCL" type="bidirectional"/>
+        <pin num="15" name="CTS1" type="bidirectional"/>
+        <pin num="16" name="I2C_~{INT}" type="bidirectional"/>
+        <pin num="17" name="TX1" type="bidirectional"/>
+        <pin num="18" name="D1/CAM_TRIG" type="bidirectional"/>
+        <pin num="19" name="RX1" type="bidirectional"/>
+        <pin num="20" name="RX2" type="bidirectional"/>
+        <pin num="21" name="SWDCK" type="bidirectional"/>
+        <pin num="22" name="TX2" type="bidirectional"/>
+        <pin num="23" name="SWDIO" type="bidirectional"/>
+        <pin num="32" name="PWM0" type="bidirectional"/>
+        <pin num="33" name="GND" type="bidirectional"/>
+        <pin num="34" name="A0" type="bidirectional"/>
+        <pin num="35" name="USBHOST_D+" type="bidirectional"/>
+        <pin num="36" name="GND" type="bidirectional"/>
+        <pin num="37" name="USBHOST_D-" type="bidirectional"/>
+        <pin num="38" name="A1" type="bidirectional"/>
+        <pin num="39" name="GND" type="bidirectional"/>
+        <pin num="40" name="G0/BUS0" type="bidirectional"/>
+        <pin num="41" name="CAN-RX" type="bidirectional"/>
+        <pin num="42" name="G1/BUS1" type="bidirectional"/>
+        <pin num="43" name="CAN-TX" type="bidirectional"/>
+        <pin num="44" name="G2/BUS2" type="bidirectional"/>
+        <pin num="45" name="GND" type="bidirectional"/>
+        <pin num="46" name="G3/BUS3" type="bidirectional"/>
+        <pin num="47" name="PWM1" type="bidirectional"/>
+        <pin num="48" name="G4/BUS4" type="bidirectional"/>
+        <pin num="49" name="BATT_VIN/3" type="bidirectional"/>
+        <pin num="50" name="AUD_BCLK" type="bidirectional"/>
+        <pin num="51" name="I2C_SDA1" type="bidirectional"/>
+        <pin num="52" name="AUD_LRCLK" type="bidirectional"/>
+        <pin num="53" name="I2C_SCL1" type="bidirectional"/>
+        <pin num="54" name="AUD_IN/CAM_PCLK" type="bidirectional"/>
+        <pin num="55" name="SPI_~{CS}" type="bidirectional"/>
+        <pin num="56" name="AUD_OUT/CAM_MCLK" type="bidirectional"/>
+        <pin num="57" name="SPI_SCK" type="bidirectional"/>
+        <pin num="58" name="AUD_MCLK" type="bidirectional"/>
+        <pin num="59" name="SPI_SDO" type="bidirectional"/>
+        <pin num="60" name="SPI_SCK1/SDIO_CLK" type="bidirectional"/>
+        <pin num="61" name="SPI_SDI" type="bidirectional"/>
+        <pin num="62" name="SPI_SDO1/SDIO_CMD" type="bidirectional"/>
+        <pin num="63" name="G10/ADC_D+/CAM_VSYNC" type="bidirectional"/>
+        <pin num="64" name="SPI_SDI1/SDIO_DATA0" type="bidirectional"/>
+        <pin num="65" name="G9/ADC_D-/CAM_HSYNC" type="bidirectional"/>
+        <pin num="66" name="SDIO_DATA1" type="bidirectional"/>
+        <pin num="67" name="G8" type="bidirectional"/>
+        <pin num="68" name="SDIO_DATA2" type="bidirectional"/>
+        <pin num="69" name="G7/BUS7" type="bidirectional"/>
+        <pin num="70" name="SPI_~{CS1}/SDIO_DATA3" type="bidirectional"/>
+        <pin num="71" name="G6/BUS6" type="bidirectional"/>
+        <pin num="72" name="RTC_3V" type="bidirectional"/>
+        <pin num="73" name="G5/BUS5" type="bidirectional"/>
+        <pin num="74" name="3.3V" type="bidirectional"/>
+        <pin num="75" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+        <pin num="4" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="OSHW-LOGOMINI">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">OSHW-LOGOMINI</field>
+      </fields>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="PPTC_6V2A">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">PPTC_6V2A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="STAND-OFF">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">STAND-OFF</field>
+      </fields>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="STAND-OFF-REFLOW2.5MM_TALL">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">STAND-OFF-REFLOW2.5MM_TALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="USB_C_2-LAYER_PADS">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_2-LAYER_PADS</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="GND" name="GND" type="bidirectional"/>
+        <pin num="GND2" name="GND" type="bidirectional"/>
+        <pin num="SHLD1" name="SHLD" type="bidirectional"/>
+        <pin num="SHLD2" name="SHLD" type="bidirectional"/>
+        <pin num="SHLD3" name="SHLD" type="bidirectional"/>
+        <pin num="SHLD4" name="SHLD" type="bidirectional"/>
+        <pin num="VBUS1" name="VBUS" type="bidirectional"/>
+        <pin num="VBUS2" name="VBUS" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroMod-Datalogging-CarrierBoard-eagle-import" part="V_REG_AP2112K-3.3V">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">V_REG_AP2112K-3.3V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP7361C-33E">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP7361C.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP7361C-33E</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP7361C.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="MicroMod-Datalogging-CarrierBoard-eagle-import">
+      <uri>C:\Users\devcs\projects\keyboard\raven_wing\V1\kicad/MicroMod-Datalogging-CarrierBoard-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3.3V_EN">
+      <node ref="MicroMod_Connector1" pin="4" pinfunction="3.3V_EN" pintype="bidirectional"/>
+      <node ref="VE1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/3.3V_LP">
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="3" name="/A0">
+      <node ref="MicroMod_Connector1" pin="34" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/A1">
+      <node ref="MicroMod_Connector1" pin="38" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/D0">
+      <node ref="MicroMod_Connector1" pin="10" pinfunction="D0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/D1">
+      <node ref="MicroMod_Connector1" pin="18" pinfunction="D1/CAM_TRIG" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/HEADER_~{CS}">
+      <node ref="J12" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="8" name="/I2C_SCL">
+      <node ref="J14" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="14" pinfunction="I2C_SCL" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/I2C_SDA">
+      <node ref="J14" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="12" pinfunction="I2C_SDA" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/I2C_~{INT}">
+      <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="16" pinfunction="I2C_~{INT}" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/PERIPHERAL_PWR_CTRL">
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="12" name="/PWM0">
+      <node ref="MicroMod_Connector1" pin="32" pinfunction="PWM0" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/PWM1">
+      <node ref="MicroMod_Connector1" pin="47" pinfunction="PWM1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/QWIIC_PWR">
+      <node ref="J14" pin="2" pinfunction="2" pintype="power_in"/>
+    </net>
+    <net code="15" name="/RTC_3V">
+      <node ref="MicroMod_Connector1" pin="72" pinfunction="RTC_3V" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/SD_~{CS}">
+      <node ref="MicroMod_Connector1" pin="55" pinfunction="SPI_~{CS}" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/SPI_CIPO">
+      <node ref="J12" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="61" pinfunction="SPI_SDI" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SPI_COPI">
+      <node ref="J12" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="59" pinfunction="SPI_SDO" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/SPI_SCK">
+      <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="57" pinfunction="SPI_SCK" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/SWDCK">
+      <node ref="J2" pin="4" pinfunction="SWDCLK" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="21" pinfunction="SWDCK" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/SWDIO">
+      <node ref="J2" pin="2" pinfunction="SWDIO" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="23" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/USB_D+">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="3" pinfunction="USB_D+" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/USB_D-">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="5" pinfunction="USB_D-" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/VIN{slash}3">
+      <node ref="MicroMod_Connector1" pin="49" pinfunction="BATT_VIN/3" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/~{BOOT}">
+      <node ref="MicroMod_Connector1" pin="11" pinfunction="~{BOOT}" pintype="bidirectional"/>
+      <node ref="S2" pin="3" pinfunction="2" pintype="passive"/>
+      <node ref="S2" pin="4" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/~{RESET}">
+      <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="~{RESET}" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="6" pinfunction="~{RESET}" pintype="bidirectional"/>
+      <node ref="S1" pin="3" pinfunction="2" pintype="passive"/>
+      <node ref="S1" pin="4" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="3.3V">
+      <node ref="3V3_LED1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="MEAS1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="MEAS1" pin="4" pinfunction="2" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="2" pinfunction="3.3V" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="74" pinfunction="3.3V" pintype="bidirectional"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="28" name="5V">
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="MEAS_BATT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="MEAS_BATT1" pin="3" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="29" name="Col_1">
+      <node ref="MicroMod_Connector1" pin="73" pinfunction="G5/BUS5" pintype="bidirectional"/>
+      <node ref="SW_C1-R1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C1-R2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C1-R3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C1-R4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C1-R5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="30" name="Col_2">
+      <node ref="MicroMod_Connector1" pin="71" pinfunction="G6/BUS6" pintype="bidirectional"/>
+      <node ref="SW_C2-R1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C2-R2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C2-R3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C2-R4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C2-R5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="31" name="Col_3">
+      <node ref="MicroMod_Connector1" pin="69" pinfunction="G7/BUS7" pintype="bidirectional"/>
+      <node ref="SW_C3-R1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C3-R2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C3-R3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C3-R4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C3-R5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="32" name="Col_4">
+      <node ref="MicroMod_Connector1" pin="67" pinfunction="G8" pintype="bidirectional"/>
+      <node ref="SW_C4-R1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C4-R2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C4-R3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C4-R4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C4-R5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="33" name="Col_5">
+      <node ref="MicroMod_Connector1" pin="65" pinfunction="G9/ADC_D-/CAM_HSYNC" pintype="bidirectional"/>
+      <node ref="SW_C5-R1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C5-R2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C5-R3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C5-R4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C5-R5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="34" name="Col_6">
+      <node ref="MicroMod_Connector1" pin="63" pinfunction="G10/ADC_D+/CAM_VSYNC" pintype="bidirectional"/>
+      <node ref="SW_C6-R1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C6-R2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C6-R3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C6-R4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW_C6-R5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="35" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="D7" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="H5" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="J1" pin="GND" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J1" pin="GND2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J12" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="1" pintype="power_in"/>
+      <node ref="J2" pin="3" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J2" pin="9" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J4" pin="1" pinfunction="-" pintype="bidirectional"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="33" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="36" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="39" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="45" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="7" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="MicroMod_Connector1" pin="75" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S2" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="EP" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(3V3_LED1-Pad1)">
+      <node ref="3V3_LED1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D1-PadC)">
+      <node ref="D1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="EN" pintype="bidirectional"/>
+      <node ref="VE1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D2-PadC)">
+      <node ref="D2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D5-PadA)">
+      <node ref="D5" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D7-PadA)">
+      <node ref="D7" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D_C1-R1-Pad2)">
+      <node ref="D_C1-R1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C1-R1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D_C1-R2-Pad2)">
+      <node ref="D_C1-R2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C1-R2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D_C1-R3-Pad2)">
+      <node ref="D_C1-R3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C1-R3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D_C1-R4-Pad2)">
+      <node ref="D_C1-R4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C1-R4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D_C1-R5-Pad2)">
+      <node ref="D_C1-R5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C1-R5" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D_C2-R1-Pad2)">
+      <node ref="D_C2-R1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C2-R1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D_C2-R2-Pad2)">
+      <node ref="D_C2-R2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C2-R2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D_C2-R3-Pad2)">
+      <node ref="D_C2-R3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C2-R3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D_C2-R4-Pad2)">
+      <node ref="D_C2-R4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C2-R4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D_C2-R5-Pad2)">
+      <node ref="D_C2-R5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C2-R5" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D_C3-R1-Pad2)">
+      <node ref="D_C3-R1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C3-R1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D_C3-R2-Pad2)">
+      <node ref="D_C3-R2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C3-R2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D_C3-R3-Pad2)">
+      <node ref="D_C3-R3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C3-R3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D_C3-R4-Pad2)">
+      <node ref="D_C3-R4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C3-R4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D_C3-R5-Pad2)">
+      <node ref="D_C3-R5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C3-R5" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D_C4-R1-Pad2)">
+      <node ref="D_C4-R1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C4-R1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D_C4-R2-Pad2)">
+      <node ref="D_C4-R2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C4-R2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D_C4-R3-Pad2)">
+      <node ref="D_C4-R3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C4-R3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D_C4-R4-Pad2)">
+      <node ref="D_C4-R4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C4-R4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D_C4-R5-Pad2)">
+      <node ref="D_C4-R5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C4-R5" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D_C5-R1-Pad2)">
+      <node ref="D_C5-R1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C5-R1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D_C5-R2-Pad2)">
+      <node ref="D_C5-R2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C5-R2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D_C5-R3-Pad2)">
+      <node ref="D_C5-R3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C5-R3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D_C5-R4-Pad2)">
+      <node ref="D_C5-R4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C5-R4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D_C5-R5-Pad2)">
+      <node ref="D_C5-R5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C5-R5" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D_C6-R1-Pad2)">
+      <node ref="D_C6-R1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C6-R1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D_C6-R2-Pad2)">
+      <node ref="D_C6-R2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C6-R2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D_C6-R3-Pad2)">
+      <node ref="D_C6-R3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C6-R3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D_C6-R4-Pad2)">
+      <node ref="D_C6-R4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C6-R4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D_C6-R5-Pad2)">
+      <node ref="D_C6-R5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_C6-R5" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(J1-PadSHLD1)">
+      <node ref="J1" pin="SHLD1" pinfunction="SHLD" pintype="bidirectional"/>
+      <node ref="J1" pin="SHLD2" pinfunction="SHLD" pintype="bidirectional"/>
+      <node ref="J1" pin="SHLD3" pinfunction="SHLD" pintype="bidirectional"/>
+      <node ref="J1" pin="SHLD4" pinfunction="SHLD" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="Net-(MEAS1-Pad1)">
+      <node ref="MEAS1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="MEAS1" pin="3" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="75" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="77" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="VIN_LED1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Row_1">
+      <node ref="D_C1-R1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C2-R1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C3-R1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C4-R1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C5-R1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C6-R1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="40" pinfunction="G0/BUS0" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="Row_2">
+      <node ref="D_C1-R2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C2-R2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C3-R2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C4-R2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C5-R2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C6-R2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="42" pinfunction="G1/BUS1" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="Row_3">
+      <node ref="D_C1-R3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C2-R3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C3-R3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C4-R3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C5-R3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C6-R3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="44" pinfunction="G2/BUS2" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="Row_4">
+      <node ref="D_C1-R4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C2-R4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C3-R4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C4-R4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C5-R4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C6-R4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="46" pinfunction="G3/BUS3" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="Row_5">
+      <node ref="D_C1-R5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C2-R5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C3-R5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C4-R5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C5-R5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_C6-R5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="48" pinfunction="G4/BUS4" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="VIN">
+      <node ref="BYP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="F2" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="MEAS_BATT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="MEAS_BATT1" pin="4" pinfunction="2" pintype="passive"/>
+      <node ref="MicroMod_Connector1" pin="9" pinfunction="USB_VIN" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="IN" pintype="input"/>
+      <node ref="VIN_LED1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="84" name="V_BATT">
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="+" pintype="bidirectional"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="85" name="V_USB">
+      <node ref="BYP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="F2" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="J1" pin="VBUS1" pinfunction="VBUS" pintype="bidirectional"/>
+      <node ref="J1" pin="VBUS2" pinfunction="VBUS" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="SWO" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="unconnected-(J4-PadNC1)">
+      <node ref="J4" pin="NC1" pinfunction="PAD1" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="unconnected-(J4-PadNC2)">
+      <node ref="J4" pin="NC2" pinfunction="PAD2" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="unconnected-(MicroMod_Connector1-Pad8)">
+      <node ref="MicroMod_Connector1" pin="8" pinfunction="G11" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="unconnected-(MicroMod_Connector1-Pad13)">
+      <node ref="MicroMod_Connector1" pin="13" pinfunction="RTS1" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="unconnected-(MicroMod_Connector1-Pad15)">
+      <node ref="MicroMod_Connector1" pin="15" pinfunction="CTS1" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(MicroMod_Connector1-Pad17)">
+      <node ref="MicroMod_Connector1" pin="17" pinfunction="TX1" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(MicroMod_Connector1-Pad19)">
+      <node ref="MicroMod_Connector1" pin="19" pinfunction="RX1" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(MicroMod_Connector1-Pad20)">
+      <node ref="MicroMod_Connector1" pin="20" pinfunction="RX2" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="unconnected-(MicroMod_Connector1-Pad22)">
+      <node ref="MicroMod_Connector1" pin="22" pinfunction="TX2" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="unconnected-(MicroMod_Connector1-Pad35)">
+      <node ref="MicroMod_Connector1" pin="35" pinfunction="USBHOST_D+" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(MicroMod_Connector1-Pad37)">
+      <node ref="MicroMod_Connector1" pin="37" pinfunction="USBHOST_D-" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(MicroMod_Connector1-Pad41)">
+      <node ref="MicroMod_Connector1" pin="41" pinfunction="CAN-RX" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(MicroMod_Connector1-Pad43)">
+      <node ref="MicroMod_Connector1" pin="43" pinfunction="CAN-TX" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(MicroMod_Connector1-Pad50)">
+      <node ref="MicroMod_Connector1" pin="50" pinfunction="AUD_BCLK" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(MicroMod_Connector1-Pad51)">
+      <node ref="MicroMod_Connector1" pin="51" pinfunction="I2C_SDA1" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="unconnected-(MicroMod_Connector1-Pad52)">
+      <node ref="MicroMod_Connector1" pin="52" pinfunction="AUD_LRCLK" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="unconnected-(MicroMod_Connector1-Pad53)">
+      <node ref="MicroMod_Connector1" pin="53" pinfunction="I2C_SCL1" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="unconnected-(MicroMod_Connector1-Pad54)">
+      <node ref="MicroMod_Connector1" pin="54" pinfunction="AUD_IN/CAM_PCLK" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="unconnected-(MicroMod_Connector1-Pad56)">
+      <node ref="MicroMod_Connector1" pin="56" pinfunction="AUD_OUT/CAM_MCLK" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="unconnected-(MicroMod_Connector1-Pad58)">
+      <node ref="MicroMod_Connector1" pin="58" pinfunction="AUD_MCLK" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="unconnected-(MicroMod_Connector1-Pad60)">
+      <node ref="MicroMod_Connector1" pin="60" pinfunction="SPI_SCK1/SDIO_CLK" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="unconnected-(MicroMod_Connector1-Pad62)">
+      <node ref="MicroMod_Connector1" pin="62" pinfunction="SPI_SDO1/SDIO_CMD" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="unconnected-(MicroMod_Connector1-Pad64)">
+      <node ref="MicroMod_Connector1" pin="64" pinfunction="SPI_SDI1/SDIO_DATA0" pintype="bidirectional"/>
+    </net>
+    <net code="110" name="unconnected-(MicroMod_Connector1-Pad66)">
+      <node ref="MicroMod_Connector1" pin="66" pinfunction="SDIO_DATA1" pintype="bidirectional"/>
+    </net>
+    <net code="111" name="unconnected-(MicroMod_Connector1-Pad68)">
+      <node ref="MicroMod_Connector1" pin="68" pinfunction="SDIO_DATA2" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="unconnected-(MicroMod_Connector1-Pad70)">
+      <node ref="MicroMod_Connector1" pin="70" pinfunction="SPI_~{CS1}/SDIO_DATA3" pintype="bidirectional"/>
+    </net>
+    <net code="113" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="115" name="unconnected-(U4-Pad2)">
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="116" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+  </nets>
+</export>
