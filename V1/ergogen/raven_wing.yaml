@@ -26,8 +26,5 @@ points:
   mirror:
     ref: matrix_thumb_home
     distance: 22
-pcbs:
-  pcb_name:
-    outlines:
-    footprints:
+
       
